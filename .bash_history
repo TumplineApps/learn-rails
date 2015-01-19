@@ -41,3 +41,65 @@ git push -u origin master
 git remote rm origin
 git remote add origin https://github.com/TumplineApps/learn-rails.git
 git push -u origin master
+\curl -L https://get.rvm.io | bask -s stable --auto-dotfiles --ruby
+\curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --ruby
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+\curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --ruby
+unset GEM_HOME
+source /home/action/.rvm/scripts/rvm
+rvm -v
+rvm list
+gem -v
+rvm gemset list
+rvm gemset use global
+gem list
+gem outdated
+echo "gem: --no-document" >> ~/.gemrc
+gem install nokogiri
+rvm use ruby-2.2.0@rails4.2 --create
+rails -v
+gem install rails
+rails -v
+cd ~
+pwd
+mkdir workspace
+cd workspace
+rvm use ruby-2.2.0@learn-rails
+mkdir learn-rails
+cd learn-rails
+rvm use ruby-2.2.0@learn-rails --ruby-version --create
+gem install rails
+rails new .
+rake -T
+rails server
+rails server -h
+rails s --binding="0.0.0.0"
+cd ..
+gem outdated
+gem update
+cd learn-rails
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+cd workspace
+cd learn-rails
+git push -u origin master
+git mv README.rdoc README.md
+git status
+git add -A
+git commit -m "update README"
+git push origin master
+gem -version
+gem --version
+ruby -v
+bundle install
+rails -v
+ruby -v
+bundle install
+bundle install
+ruby -v
+rails -v
+bundle install
+git add -A
+git commit -m "add gems"
+git push origin master
+git push origin master
