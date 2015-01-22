@@ -103,3 +103,40 @@ git add -A
 git commit -m "add gems"
 git push origin master
 git push origin master
+ls -lpa
+git add -A
+git commit -m "add configuration"
+git push
+git push
+dir
+cd workspace
+cd workspace
+cd learn_rails
+cd learn-rails
+rails s -binding=="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
