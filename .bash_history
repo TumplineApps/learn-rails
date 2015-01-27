@@ -140,3 +140,17 @@ rails s --binding="0.0.0.0"
 rails s --binding="0.0.0.0"
 rails s --binding="0.0.0.0"
 rails s --binding="0.0.0.0"
+cd workspace
+cd learn_rails
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+get reset --hard HEAD
+git reset --hard HEAD
+rails generate layout.install simple --force
+cd workspace
+cd learn-rails
+rails generate layout.install simple --force
+rails generate layout:install simple --force
