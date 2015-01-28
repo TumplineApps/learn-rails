@@ -163,3 +163,24 @@ cd learn-rails
 git add -A
 git commit -m "update applicaiton layout"
 git push
+cd workspace
+cd learn-rails
+rails generate layout:install foundation5 --force
+rails generate simple_form:install --foundation
+git add -A
+git commit -m "front-end framework"
+git push
+git add -A
+git commit -m "add 'about' and 'contact' pages"
+git push
+rake routes
+cd workspace
+cd learn-rails
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+rails s --binding="0.0.0.0"
+cd workspaces
+cd workspace
+cd learn-rails
+rails s --binding="0.0.0.0"
