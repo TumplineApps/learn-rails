@@ -154,3 +154,12 @@ cd workspace
 cd learn-rails
 rails generate layout.install simple --force
 rails generate layout:install simple --force
+cd workspace
+cd learn-rails
+rails s --binding="0.0.0.0"
+cd workkspace
+cd workspace
+cd learn-rails
+git add -A
+git commit -m "update applicaiton layout"
+git push
