@@ -9,6 +9,6 @@ eval "$(parts env)"
 
 export GMAIL_USERNAME="tumplineapps@gmail.com"
 export GMAIL_PASSWORD="Dtc6Lst8AtdG"
-export MAILCHIMP_API_KEY="3f20f62b6a9cc68f7b09f2a27ef"
+export MAILCHIMP_API_KEY="3f20f62b6a9cc68f7b09f2a27ef57a85-us10"
 export MAILCHIMP_LIST_ID="6878b6b716"
 export OWNER_EMAIL="tumplineapps@gmail.com"

@@ -184,3 +184,18 @@ cd workspaces
 cd workspace
 cd learn-rails
 rails s --binding="0.0.0.0"
+cd workspace
+cd learn-rails
+git add -A
+git commit -m "contact form"
+git push
+git add -A
+git commit -m "save data to a spreadsheet"
+git push
+rails generate mailer UserMailer
+git add -A
+git commit -m "sending mail"
+git push
+cd workspace
+cd learn-rails
+rails s --binding="0.0.0.0"
